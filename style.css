@@ -1,0 +1,112 @@
+:root {
+    --app-color: #00AA83;
+    --background-color: var(--app-color);
+    --on-background-color: #FFFFFF;
+}
+
+@font-face {
+    font-family: "Wagon Sans";
+    src: url("arialroundedmtbold.ttf");
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: "Wagon Sans", "Arial", sans-serif;
+}
+
+body {
+    padding: 4vh 8vw;
+    background-color: var(--background-color);
+    color: var(--on-background-color);
+}
+
+main {
+    padding: 5vw 0;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 4vw;
+}
+
+main>img {
+    height: min(100vh, calc(100vw / 0.7));
+    width: auto;
+    border: 3vh solid #fff4;
+    border-radius: 9vh;
+}
+
+h1 {
+    font-size: max(22px, 4vw);
+}
+
+ul {
+    font-size: max(18px, 2vw);
+}
+
+p {
+    opacity: 0.7;
+    font-size: max(16px, 1.5vw);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav>div {
+    display: flex;
+    align-items: start;
+    gap: 1vw;
+}
+
+nav img {
+    height: 4vh;
+}
+
+nav div span {
+    font-size: max(16px, 4vh);
+}
+
+nav a {
+    display: grid;
+    place-items: center;
+    padding: 1vh 2vw;
+    background-color: var(--on-background-color);
+    color: var(--background-color);
+    text-decoration: none;
+    border-radius: 999px;
+}
+
+nav a span {
+    font-size: max(14px, 2vh);
+}
+
+nav a:hover {
+    opacity: 0.7;
+}
+
+main section {
+    max-width: 44vw;
+}
+
+main section img {
+    user-select: none;
+    height: 10vh;
+}
+
+footer {
+    font-size: max(12px, 2vh);
+}
+
+footer span {
+    color: #fff9
+}
+
+footer strong {
+    color: var(--on-background-color);
+    font-weight: normal;
+}
