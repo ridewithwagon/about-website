@@ -2,6 +2,7 @@
     --app-color: #00AA83;
     --background-color: var(--app-color);
     --on-background-color: #FFFFFF;
+    --body-padding: 8vw;
 }
 
 @font-face {
@@ -20,7 +21,7 @@ html {
 }
 
 body {
-    padding: 4vh 8vw;
+    padding: 4vh var(--body-padding);
     background-color: var(--background-color);
     color: var(--on-background-color);
 }
@@ -109,4 +110,16 @@ footer span {
 footer strong {
     color: var(--on-background-color);
     font-weight: normal;
+}
+
+.map {
+    padding: 10vh 0;
+}
+
+.map img {
+    padding: 0;
+    display: block;
+    margin: 0;
+    width: calc(100% + var(--body-padding));
+    height: auto;
 }
