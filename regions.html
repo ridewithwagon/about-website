@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wagon</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <div>
+            <a href="/"><img src="logo.svg" alt=""></a>
+        </div>
+        <div>
+            <a class="secondary" href="https://testflight.apple.com/join/M2xoL0bC">
+                <span>Faire de la publicité sur Wagon</span>
+            </a>
+            <a class="primary" href="https://testflight.apple.com/join/M2xoL0bC">
+                <span>Obtenir</span>
+            </a>
+        </div>
+    </nav>
+
+    <main>
+        <section>
+            <h1>
+                Découvrez où Wagon est disponible dans le monde
+            </h1>
+            <p>
+                Nous voulons rendre Wagon accessible partout pour simplifier l’usage des transports en commun au
+                quotidien.
+            </p>
+            <ul class="regions">
+                <li>
+                    Chypre <span>- Cyprus Public Transport</span>
+                </li>
+                <li>
+                    Toulouse <span>- Tisséo</span>
+                </li>
+                <li>
+                    Nice <span>- Lignes d’Azur</span>
+                </li>
+                <li>
+                    Paris <span>- Île-de-France Mobilités</span>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <img class="map" src="map.svg" alt="">
+
+
+    <footer class="footer bottom">
+        <span>Développé par <strong>Arno Cellarier</strong> et <strong>Matthieu Cloët</strong>. Interface conçue
+            par
+            <strong>Rémy Cellarier</strong>.
+            Tests et aide région
+            Île-de-France: <strong>Léon Edmee</strong>. *La fonctionnalité de planification de trajets est
+            encore en
+            développement et sera disponible bientôt via une mise à jour logicielle.</span>
+    </footer>
+
+
+    <script>
+        const imagesFolder = 'screens/';
+        const imagesCount = 13;
+        let currentImage = 1;
+
+        setInterval(() => {
+            currentImage++;
+            if (currentImage > imagesCount) {
+                currentImage = 1;
+            }
+            document.querySelector('main>img').src = imagesFolder + currentImage + '.png';
+        }, 1300);
+    </script>
+</body>
+
+</html>

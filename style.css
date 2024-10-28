@@ -137,7 +137,8 @@ nav div span {
     font-size: max(16px, 4vh);
 }
 
-nav a {
+.primary,
+.secondary {
     display: grid;
     place-items: center;
     padding: 1vh 1vw;
@@ -147,11 +148,13 @@ nav a {
     border-radius: 999px;
 }
 
-nav a span {
+.primary span,
+.secondary span {
     font-size: max(14px, 2vh);
 }
 
-nav a:hover {
+.primary:hover,
+.secondary:hover {
     opacity: 0.7;
 }
 
@@ -178,6 +181,12 @@ footer {
     font-size: max(12px, 2vh);
 }
 
+footer.bottom {
+    max-width: 42vw;
+    position: absolute;
+    bottom: 7vh;
+}
+
 footer span {
     color: #fff9
 }
@@ -187,14 +196,21 @@ footer strong {
     font-weight: normal;
 }
 
-.map {
-    padding: 10vh 0;
+ul.regions {
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
-.map img {
-    padding: 0;
-    display: block;
-    margin: 0;
-    width: calc(100% + var(--body-padding));
+ul.regions span {
+    opacity: 0.50;
+}
+
+img.map {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 60vw;
     height: auto;
 }
