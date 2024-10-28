@@ -12,45 +12,82 @@
 <body>
     <nav>
         <div>
-            <img src="waw.png" alt="">
-            <span>Wagon.</span>
+            <img src="logo.svg" alt="">
         </div>
-        <a href="https://testflight.apple.com/join/M2xoL0bC">
-            <span>Obtenir</span>
-        </a>
+        <div>
+            <a class="secondary" href="https://testflight.apple.com/join/M2xoL0bC">
+                <span>Faire de la publicité sur Wagon</span>
+            </a>
+            <a href="https://testflight.apple.com/join/M2xoL0bC">
+                <span>Obtenir</span>
+            </a>
+        </div>
     </nav>
 
     <main>
         <section>
             <h1>Prenez les transports simplement avec Wagon.</h1>
-            <ul>
-                <li>Départs autour de vous en temps réel</li>
-                <li>Suivi automatique du trajet en cours</li>
-                <li>Signalements d'incidents en direct</li>
+            <ul class="features">
+                <li>
+                    <img src="1.svg" alt="">
+                    <span>Départs autour de vous en temps réel</span>
+                </li>
+                <li>
+                    <img src="2.svg" alt="">
+                    <span>
+                        Suivi automatique du trajet en cours
+                    </span>
+                </li>
+                <li>
+                    <img src="3.svg" alt="">
+                    <span>
+                        Signalements d'incidents en direct
+                    </span>
+                    <span class="outside">
+                        Et bien plus
+                    </span>
+                </li>
             </ul>
-            <p>Wagon est l'application la plus simple et intuitive pour voir les informations de transports autour de
-                vous
-                et
-                planifier des trajets porte à porte*.</p>
-            <a href="https://testflight.apple.com/join/M2xoL0bC" title="Obtenir sur TestFlight">
+            <ul class="questions">
+                <li>
+                    <a href="">
+                        Où est disponible Wagon ?
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        Pourquoi Wagon plutôt qu'une autre app ?
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        Suivez l'avancée du proket sur Twitter @ridewithwagon
+                    </a>
+                </li>
+
+            </ul>
+            <a class="testflightbutton" href="https://testflight.apple.com/join/M2xoL0bC"
+                title="Obtenir sur TestFlight">
                 <img src="get.png" alt="">
             </a>
+            <a class="googleplaybutton"
+                href="https://docs.google.com/forms/d/e/1FAIpQLSdm40s7DejjgXvDYha5o11vyxZZypr-F7fa-BvnpsvGPtOxyg/viewform"
+                title="Obtenir sur GooglePlay">
+                <img src="googleplaybadge.png" alt="">
+            </a>
+            <footer class="footer">
+                <span>Développé par <strong>Arno Cellarier</strong> et <strong>Matthieu Cloët</strong>. Interface conçue
+                    par
+                    <strong>Rémy Cellarier</strong>.
+                    Tests et aide région
+                    Île-de-France: <strong>Léon Edmee</strong>. *La fonctionnalité de planification de trajets est
+                    encore en
+                    développement et sera disponible bientôt via une mise à jour logicielle.</span>
+            </footer>
         </section>
-        <img src="screens/10.png" height=" 2556" width="1179 " alt="">
+        <img src="screens/10.png" height="2556" width="1179" alt="">
     </main>
 
-    <section class="map">
-        <h2>Wagon est disponible dans les villes suivantes</h2>
-        <img src="wagonmap.png" alt="Carte des villes compatibles, avec l'Ile de France, Toulouse, Nice et Chypre UE">
-    </section>
-
-    <footer>
-        <span>Développé par <strong>Arno Cellarier</strong> et <strong>Matthieu Cloët</strong>. Interface conçue par
-            <strong>Rémy Cellarier</strong>.
-            Tests et aide région
-            Île-de-France: <strong>Léon Edmee</strong>. *La fonctionnalité de planification de trajets est encore en
-            développement et sera disponible bientôt via une mise à jour logicielle.</span>
-    </footer>
 
     <script>
         const imagesFolder = 'screens/';

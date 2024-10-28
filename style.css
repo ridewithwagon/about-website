@@ -10,6 +10,11 @@
     src: url("arialroundedmtbold.ttf");
 }
 
+a.secondary {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+}
+
 html,
 body {
     margin: 0;
@@ -27,30 +32,90 @@ body {
 }
 
 main {
-    padding: 5vw 0;
+    padding: 7vh 0;
     display: flex;
-    flex-flow: row wrap;
     gap: 4vw;
 }
 
 main>img {
-    height: min(100vh, calc(100vw / 0.7));
+    height: 70vh;
     width: auto;
     border: 3vh solid #fff4;
-    border-radius: 9vh;
+    border-radius: 8vh;
+    margin-left: 50px;
+}
+
+@media (max-width:1100px) {
+    main {
+        flex-direction: column-reverse;
+    }
+
+    main>img {
+        height: auto;
+        width: 70vw;
+    }
 }
 
 h1 {
-    font-size: max(22px, 4vw);
+    font-size: max(22px, 3.5vw);
+    letter-spacing: -0.1vw;
+    margin-top: 0;
 }
 
-ul {
-    font-size: max(18px, 2vw);
+.features {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: max(18px, 1.5vw);
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.features li {
+    display: flex;
+    position: relative;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 100px;
+    width: fit-content;
+}
+
+.features .outside {
+    position: absolute;
+    right: 0;
+    transform: translateX(100%);
+    padding-left: 10px;
+}
+
+.features img {
+    height: 20px;
+    width: auto;
+}
+
+.questions {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    list-style: none;
+    margin: 4vh 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.questions a {
+    color: white;
 }
 
 p {
     opacity: 0.7;
     font-size: max(16px, 1.5vw);
+}
+
+.footer {
+    margin-top: 5vh;
 }
 
 nav {
@@ -75,7 +140,7 @@ nav div span {
 nav a {
     display: grid;
     place-items: center;
-    padding: 1vh 2vw;
+    padding: 1vh 1vw;
     background-color: var(--on-background-color);
     color: var(--background-color);
     text-decoration: none;
@@ -94,9 +159,19 @@ main section {
     max-width: 44vw;
 }
 
-main section img {
-    user-select: none;
-    height: 10vh;
+.testflightbutton,
+.googleplaybutton {
+    text-decoration: none;
+}
+
+.testflightbutton img,
+.googleplaybutton img {
+    height: 4vw;
+    width: auto;
+}
+
+.googleplaybutton {
+    margin-left: 12px;
 }
 
 footer {
