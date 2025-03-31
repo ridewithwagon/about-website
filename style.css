@@ -214,3 +214,15 @@ img.map {
     width: 60vw;
     height: auto;
 }
+
+#twitterLostAccountDisclaimer {
+    margin-top: 2vh;
+    background-color: #00acee;
+    padding: 1vh 2vw;
+    border-radius: 26px;
+}
+
+#twitterLostAccountDisclaimer p {
+    color: white;
+    opacity: 1;
+}

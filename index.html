@@ -25,6 +25,11 @@
         </div>
     </nav>
 
+    <aside id="twitterLostAccountDisclaimer" style="display: none;">
+        <p>Nous avons perdu l'accès au compte X/Twitter @ridewithwagon. Vous pouvez nous suivre sur @trywagon ou sur
+            notre compte BlueSky @getwagon.fr</p>
+    </aside>
+
     <main>
         <section>
             <h1>Prenez les transports simplement avec Wagon.</h1>
@@ -102,6 +107,10 @@
             }
             document.querySelector('main>img').src = imagesFolder + currentImage + '.png';
         }, 1300);
+
+        if (document.referrer === "https://t.co/") {
+            document.getElementById("twitterLostAccountDisclaimer").style.display = "block";
+        }
     </script>
 </body>
 
