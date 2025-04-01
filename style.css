@@ -40,9 +40,9 @@ main {
 main>img {
     height: 70vh;
     width: auto;
-    border: 3vh solid #fff4;
-    border-radius: 8vh;
     margin-left: 50px;
+    border-radius: 6.6vh;
+    border: 3vh solid rgba(0, 0, 0, 0.2);
 }
 
 @media (max-width:1100px) {
