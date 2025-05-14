@@ -102,27 +102,9 @@
                     développement et sera disponible bientôt via une mise à jour logicielle.</span>
             </footer>
         </section>
-        <img src="screens/10.png" height="2556" width="1179" alt="">
+        <!-- <img src="screens/10.png" height="2556" width="1179" alt=""> -->
+        <video class="iPhone" src="record.webm" height="2556" width="1179" autoplay loop muted></video>
     </main>
-
-
-    <script>
-        const imagesFolder = 'screens/';
-        const imagesCount = 13;
-        let currentImage = 1;
-
-        setInterval(() => {
-            currentImage++;
-            if (currentImage > imagesCount) {
-                currentImage = 1;
-            }
-            document.querySelector('main>img').src = imagesFolder + currentImage + '.png';
-        }, 1300);
-
-        if (document.referrer === "https://t.co/") {
-            document.getElementById("twitterLostAccountDisclaimer").style.display = "block";
-        }
-    </script>
 </body>
 
 </html>
