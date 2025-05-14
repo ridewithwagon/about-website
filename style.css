@@ -169,7 +169,7 @@ main section {
 
 .testflightbutton img,
 .googleplaybutton img {
-    height: 4vw;
+    height: 6vw;
     width: auto;
 }
 
@@ -225,4 +225,23 @@ img.map {
 #twitterLostAccountDisclaimer p {
     color: white;
     opacity: 1;
+}
+
+.sendBetaEmail {
+    display: flex;
+    gap: 32px;
+}
+
+.sendBetaEmail p {
+    margin: 0;
+}
+
+.sendBetaEmail h3 {
+    margin: 0;
+    margin-bottom: 8px;
+}
+
+.sendBetaEmail a {
+    font-size: 22px;
+    color: unset;
 }
