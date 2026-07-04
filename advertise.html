@@ -11,19 +11,7 @@
 </head>
 
 <body>
-    <nav>
-        <div>
-            <img src="logo.svg" alt="">
-        </div>
-        <div>
-            <a class="secondary" href="/advertise.html">
-                <span>Faire de la publicité sur Wagon</span>
-            </a>
-            <a class="primary" href="https://testflight.apple.com/join/M2xoL0bC">
-                <span>Obtenir</span>
-            </a>
-        </div>
-    </nav>
+    <div id="nav"></div>
 
     <main>
         <section>
@@ -61,8 +49,11 @@
         </section>
     </main>
 
+    <div id="footer"></div>
+
     <style>
         main {
+            padding: 60px var(--body-padding);
             flex-direction: column;
         }
 
@@ -89,6 +80,20 @@
             box-shadow: 0 0 0 1.2vw rgba(0, 0, 0, 0.2);
         }
     </style>
+
+    <script>
+        fetch("nav.html")
+            .then(r => r.text())
+            .then(html => {
+                document.getElementById("nav").innerHTML = html;
+            });
+
+        fetch("footer.html")
+            .then(r => r.text())
+            .then(html => {
+                document.getElementById("footer").innerHTML = html;
+            });
+    </script>
 </body>
 
 </html>
