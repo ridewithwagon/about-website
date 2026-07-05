@@ -6,7 +6,8 @@
     </div>
     <div>
         <a class="secondary" href="/advertise.html">
-            <span>Faire de la publicité sur Wagon</span>
+            <span class="mini">Annonceurs</span>
+            <span class="maxi">Faire de la publicité sur Wagon</span>
         </a>
         <a class="primary" href="https://apps.apple.com/app/apple-store/id6474121798?pt=126791704&ct=Site%20web&mt=8">
             <span>Obtenir</span>
@@ -17,5 +18,19 @@
 <style>
     nav {
         padding: 0 var(--body-padding)
+    }
+
+    .mini {
+        display: none;
+    }
+
+    @media (max-width: 700px) {
+        .mini {
+            display: block;
+        }
+
+        .maxi {
+            display: none;
+        }
     }
 </style>

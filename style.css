@@ -164,18 +164,20 @@ ul.regions span {
     height: auto;
 }
 
-section:nth-child(2) {
-    background-color: var(--green-6);
-}
+@media (max-width: 800px) {
+    .hero {
+        flex-direction: column;
+        gap: 0;
+    }
 
-/* img.map {
-    position: absolute;
-    right: 0;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 60vw;
-    height: auto;
-} */
+    .hero>div {
+        padding: 0 var(--body-padding);
+    }
+
+    .hero>img {
+        width: min(400px, 100vw);
+    }
+}
 
 .sendBetaEmail {
     display: flex;
@@ -198,6 +200,7 @@ section:nth-child(2) {
 }
 
 h2 {
+    max-width: 600px;
     font-size: 32px;
     margin: 0;
 }
@@ -229,11 +232,12 @@ section:has(article)>div {
 }
 
 section article {
+    --width: max(300px, 24vw);
     overflow: hidden;
     background-color: var(--green-7);
     border-radius: 28px;
-    min-width: 24vw;
-    max-width: 24vw;
+    min-width: var(--width);
+    max-width: var(--width);
 }
 
 section article>img {
@@ -248,7 +252,7 @@ section article>p {
 
 section.map {
     padding-left: var(--body-padding);
-    max-width: 44vw;
+    max-width: max(400px, 44vw);
     min-height: 40vw;
     position: relative;
 }
@@ -266,4 +270,11 @@ section.map {
     height: auto;
     user-select: none;
     pointer-events: none;
+}
+
+@media (max-width: 900px) {
+    .mapAnchor img {
+        position: relative;
+        width: 100vw;
+    }
 }
