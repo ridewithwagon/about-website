@@ -178,6 +178,15 @@
             .then(r => r.text())
             .then(html => {
                 document.getElementById("nav").innerHTML = html;
+
+                const pageLang = (document.documentElement.lang || '').split('-')[0].toLowerCase();
+                const browserLang = (navigator.language || '').split('-')[0].toLowerCase();
+
+                const shouldDisplayLanguageAside = pageLang && browserLang && pageLang !== browserLang;
+
+                if (shouldDisplayLanguageAside) {
+                    document.getElementById("langBanner").style.display = "flex";
+                }
             });
 
         fetch("footer.html")

@@ -1,0 +1,474 @@
+{
+    "- EMEL (Limassol), OSYPA (Pafos), OSEA (Famagusta), NPT (Nicosia) LPT (Larnaca), Intercity, Pame Express (Park and Ride) et Kapnos Airport Shuttle.": {
+        "en": "- EMEL (Limassol), OSYPA (Pafos), OSEA (Famagusta), NPT (Nicosia) LPT (Larnaca), Intercity, Pame Express (Park and Ride) and Kapnos Airport Shuttle.",
+        "cs": "- EMEL (Limassol), OSYPA (Pafos), OSEA (Famagusta), NPT (Nikósie) LPT (Larnaka), Intercity, Pame Express (Park and Ride) a Kapnos Airport Shuttle."
+    },
+    "- Île-de-France Mobilités": {
+        "en": "- Île-de-France Mobilités",
+        "cs": "- Île-de-France Mobilités"
+    },
+    "- Île-de-France Mobilités, Aéroport de Paris, Magical Shuttle": {
+        "en": "- Île-de-France Mobilités, Aéroport de Paris, Magical Shuttle",
+        "cs": "- Île-de-France Mobilités, Aéroport de Paris, Magical Shuttle"
+    },
+    "- Lignes d’Azur": {
+        "en": "- Lignes d’Azur",
+        "cs": "- Lignes d’Azur"
+    },
+    "- Tisséo": {
+        "en": "- Tisséo",
+        "cs": "- Tisséo"
+    },
+    ". *La fonctionnalité de planification de trajets est encore en développement et sera disponible bientôt via une mise à jour logicielle.": {
+        "en": ". *The journey planning feature is still in development and will be available soon via a software update.",
+        "cs": ". *Funkce plánování cest je stále ve vývoji a bude brzy k dispozici prostřednictvím aktualizace softwaru."
+    },
+    ". Changer de langue :": {
+        "en": ". Change language",
+        "cs": ""
+    },
+    ". Interface conçue par": {
+        "en": ". User interface designed by",
+        "cs": ". Uživatelské rozhraní navrhl"
+    },
+    ". Tests et aide région Île-de-France:": {
+        "en": ". Testing and Île-de-France region help:",
+        "cs": ". Testování a pomoc s regionem Île-de-France:"
+    },
+    "&": {
+        "en": "",
+        "cs": ""
+    },
+    "1. Objet du service": {
+        "en": "1. Purpose of the service",
+        "cs": "1. Předmět služby"
+    },
+    "2. Accès au service": {
+        "en": "2. Access to the service",
+        "cs": "2. Přístup ke službě"
+    },
+    "3. Responsabilités": {
+        "en": "3. Responsibilities",
+        "cs": "3. Odpovědnosti"
+    },
+    "4. Utilisation des données": {
+        "en": "4. Use of data",
+        "cs": "4. Využití údajů"
+    },
+    "5. Propriété intellectuelle": {
+        "en": "5. Intellectual property",
+        "cs": "5. Duševní vlastnictví"
+    },
+    "6. Modification des CGU": {
+        "en": "6. Changes to the Terms of Use",
+        "cs": "6. Změny podmínek používání"
+    },
+    "7. Droit applicable": {
+        "en": "7. Applicable law",
+        "cs": "7. Příslušné právo"
+    },
+    "Adresse IP (sous forme d’identifiant anonymisé)": {
+        "en": "IP address (as an anonymized identifier)",
+        "cs": "IP adresa (ve formě anonymizovaného identifikátoru)"
+    },
+    "Annonceurs": {
+        "en": "Advertisers",
+        "cs": "Inzerenti"
+    },
+    "Apparaissez sur les lignes et arrêts qui passent près de chez vous.": {
+        "en": "Appear on the lines and stops that pass near your location.",
+        "cs": "Objevte se na linkách a zastávkách, které vedou poblíž vás."
+    },
+    "Apparaissez, sans déranger.": {
+        "en": "Be seen, without being intrusive.",
+        "cs": "Upozorněte na sebe, aniž byste rušili."
+    },
+    "Arno Cellarier": {
+        "en": "Arno Cellarier",
+        "cs": "Arno Cellarier"
+    },
+    "Arrêt concerné": {
+        "en": "Stop concerned",
+        "cs": "Příslušná zastávka"
+    },
+    "Aucune donnée personnelle supplémentaire n’est collectée par Wagon dans ce cadre, en dehors des informations que l’utilisateur saisit volontairement (par exemple : point de départ et d’arrivée d’un itinéraire).": {
+        "en": "No additional personal data is collected by Wagon in this context, other than the information the user enters voluntarily (for example: departure and arrival points of a route).",
+        "cs": "V tomto kontextu Wagon nesbírá žádné další osobní údaje, s výjimkou informací, které uživatel zadá dobrovolně (například: výchozí a cílový bod trasy)."
+    },
+    "Bratislava": {
+        "en": "Bratislava",
+        "cs": "Bratislava"
+    },
+    "Certaines données techniques envoyées par OpenAI peuvent être utilisées :": {
+        "en": "Some technical data sent by OpenAI may be used:",
+        "cs": "Některé technické údaje odeslané společností OpenAI mohou být využity:"
+    },
+    "Ces données ne permettent pas de vous identifier directement.": {
+        "en": "These data do not allow you to be identified directly.",
+        "cs": "Tyto údaje vás neumožňují přímo identifikovat."
+    },
+    "Ces données peuvent être utilisées pour améliorer le service, effectuer des analyses ou proposer des suggestions pertinentes.": {
+        "en": "These data may be used to improve the service, perform analysis or provide relevant suggestions.",
+        "cs": "Tyto údaje mohou být využity ke zlepšení služby, provádění analýz nebo k poskytování relevantních návrhů."
+    },
+    "Čeština": {
+        "en": "",
+        "cs": ""
+    },
+    "Choisir une langue": {
+        "en": "Choose language",
+        "cs": "Vyberte jazyk"
+    },
+    "Choisissez simplement : plus rapide, moins cher, moins de marche, climatisé ou moins de correspondances.": {
+        "en": "Choose simply: faster, cheaper, less walking, air-conditioned or fewer transfers.",
+        "cs": "Vyberte si jednoduše: rychlejší, levnější, méně chůze, klimatizováno nebo méně přestupů."
+    },
+    "Chypre": {
+        "en": "Cyprus",
+        "cs": "Kypr"
+    },
+    "Cloudflare, OVH": {
+        "en": "Cloudflare, OVH",
+        "cs": "Cloudflare, OVH"
+    },
+    "Conditions Générales d’Utilisation (CGU)": {
+        "en": "Terms of Use (ToU)",
+        "cs": "Podmínky používání"
+    },
+    "Contact :": {
+        "en": "Contact:",
+        "cs": "Kontakt:"
+    },
+    "Contactez nous pour plus d'informations. ads@getwagon.fr": {
+        "en": "Contact us for more information. ads@getwagon.fr",
+        "cs": "Kontaktujte nás pro více informací. ads@getwagon.fr"
+    },
+    "Créez un visuel pour l'occasion et incitez les gens à venir chez vous pour y participer.": {
+        "en": "Create a visual for the occasion and encourage people to come to you to take part.",
+        "cs": "Vytvořte pro příležitost vizuál a přimějte lidi, aby k vám přišli a zúčastnili se."
+    },
+    "Czech": {
+        "en": "",
+        "cs": ""
+    },
+    "Dans votre utilisation de l’app, Wagon récupère votre localisation pour afficher les arrêts à proximité ou le trajet en cours. Ces données ne sont pas stockées.": {
+        "en": "When you use the app, Wagon retrieves your location to show nearby stops or the journey in progress. These data are not stored.",
+        "cs": "Při používání aplikace Wagon načítá vaši polohu, aby zobrazil okolní zastávky nebo právě probíhající cestu. Tyto údaje se neukládají."
+    },
+    "Découvrez où Wagon est disponible dans le monde": {
+        "en": "Discover where Wagon is available around the world",
+        "cs": "Objevte, kde je Wagon dostupný ve světě"
+    },
+    "Des identifiants de session techniques": {
+        "en": "Technical session identifiers",
+        "cs": "Technické identifikátory relace"
+    },
+    "Développé par": {
+        "en": "Developed by",
+        "cs": "Vyvinul"
+    },
+    "Disponible à partir d'iOS 17. iPhone XR, XS et plus.": {
+        "en": "Available from iOS 17. iPhone XR, XS and later.",
+        "cs": "Dostupné od iOS 17. iPhone XR, XS a novější."
+    },
+    "Éditeur du site :": {
+        "en": "Website publisher:",
+        "cs": "Vydavatel webu:"
+    },
+    "En faisant de la publicité sur Wagon, vous :": {
+        "en": "By advertising on Wagon, you:",
+        "cs": "Reklamou na Wagonu:"
+    },
+    "En Île-de-France, Wagon indique exactement quels tickets acheter et leur prix.": {
+        "en": "In Île-de-France, Wagon tells you exactly which tickets to buy and their price.",
+        "cs": "V Île-de-France Wagon přesně uvádí, které jízdenky si koupit a za jakou cenu."
+    },
+    "English": {
+        "en": "",
+        "cs": ""
+    },
+    "et": {
+        "en": "and",
+        "cs": "a"
+    },
+    "Faire de la publicité sur Wagon": {
+        "en": "Advertise on Wagon",
+        "cs": "Reklama na Wagonu"
+    },
+    "Faites-vous connaître grâce à Wagon": {
+        "en": "Get known with Wagon",
+        "cs": "Dáte o sobě vědět díky Wagonu"
+    },
+    "Français": {
+        "en": "",
+        "cs": ""
+    },
+    "Gestion des terminus partiels.": {
+        "en": "Partial terminus handling.",
+        "cs": "Správa částečných konců tras."
+    },
+    "Hébergement :": {
+        "en": "Hosting:",
+        "cs": "Hostování:"
+    },
+    "Identifiant unique généré aléatoirement": {
+        "en": "Randomly generated unique identifier",
+        "cs": "Náhodně generovaný jedinečný identifikátor"
+    },
+    "Intéréssé ?": {
+        "en": "Interested?",
+        "cs": "Máte zájem?"
+    },
+    "L’application est disponible sur le magasin d'applications intégré à ChatGPT.": {
+        "en": "The app is available on the app store built into ChatGPT.",
+        "cs": "Aplikace je dostupná v obchodě s aplikacemi integrovaném v ChatGPT."
+    },
+    "L’éditeur se réserve le droit de modifier les présentes conditions à tout moment.": {
+        "en": "The publisher reserves the right to change these terms at any time.",
+        "cs": "Vydavatel si vyhrazuje právo tyto podmínky kdykoli změnit."
+    },
+    "L’utilisateur est responsable des informations qu’il partage via les signalements. L’éditeur ne saurait être tenu responsable des erreurs, omissions ou indisponibilités du service.": {
+        "en": "The user is responsible for the information they share via reports. The publisher cannot be held responsible for errors, omissions or unavailability of the service.",
+        "cs": "Uživatel odpovídá za informace, které sdílí prostřednictvím hlášení. Vydavatele nelze činit odpovědným za chyby, opomenutí nebo nedostupnost služby."
+    },
+    "L’utilisation de l’application Wagon implique l’acceptation pleine et entière des présentes conditions générales d’utilisation.": {
+        "en": "Use of the Wagon application implies full and complete acceptance of these terms of use.",
+        "cs": "Používání aplikace Wagon znamená plný a úplný souhlas s těmito podmínkami používání."
+    },
+    "Le service est accessible gratuitement. L’éditeur ne garantit pas une disponibilité continue et peut suspendre l’accès à tout moment pour maintenance ou amélioration.": {
+        "en": "The service is free of charge. The publisher does not guarantee continuous availability and may suspend access at any time for maintenance or improvement.",
+        "cs": "Služba je k dispozici zdarma. Vydavatel negarantuje nepřetržitou dostupnost a může kdykoli pozastavit přístup kvůli údržbě nebo vylepšení."
+    },
+    "Léon Edmee": {
+        "en": "Léon Edmee",
+        "cs": "Léon Edmee"
+    },
+    "Les données que nous collectons": {
+        "en": "The data we collect",
+        "cs": "Údaje, které sbíráme"
+    },
+    "Les données que nous utilisons": {
+        "en": "The data we use",
+        "cs": "Údaje, které využíváme"
+    },
+    "Les informations les plus complètes pour toujours choisir le meilleur trajet.": {
+        "en": "The most complete information to always choose the best route.",
+        "cs": "Nejúplnější informace, abyste si vždy vybrali tu nejlepší trasu."
+    },
+    "Les informations saisies par l’utilisateur": {
+        "en": "Information entered by the user",
+        "cs": "Informace zadané uživatelem"
+    },
+    "Les présentes conditions sont régies par le droit français.": {
+        "en": "These terms are governed by French law.",
+        "cs": "Tyto podmínky se řídí francouzským právem."
+    },
+    "Les prochains départs apparaissent automatiquement autour de vous.": {
+        "en": "The next departures appear automatically around you.",
+        "cs": "Nejbližší odjezdy se automaticky zobrazí ve vašem okolí."
+    },
+    "Les signalements anonymes permettent d'enrichir les informations à bord ou en station.": {
+        "en": "Anonymous reports help enrich information on board or at stations.",
+        "cs": "Anonymní hlášení pomáhají obohatit informace na palubě i ve stanicích."
+    },
+    "Les signalements sont visibles par tous.": {
+        "en": "Reports are visible to everyone.",
+        "cs": "Hlášení jsou viditelná pro všechny."
+    },
+    "Les signalements trop anciens finiront par disparaitre.": {
+        "en": "Outdated reports will eventually disappear.",
+        "cs": "Příliš stará hlášení časem zmizí."
+    },
+    "Les trajets proposés deviennent plus pertinents.": {
+        "en": "Suggested journeys become more relevant.",
+        "cs": "Navrhované cesty se stávají relevantnějšími."
+    },
+    "Ligne empruntée": {
+        "en": "Line used",
+        "cs": "Použitá linka"
+    },
+    "Matthieu Cloët": {
+        "en": "Matthieu Cloët",
+        "cs": "Matthieu Cloët"
+    },
+    "Mentions légales": {
+        "en": "Legal notice",
+        "cs": "Právní oznámení"
+    },
+    "Mentions légales & CGU": {
+        "en": "Legal notice & Terms of Use",
+        "cs": "Právní oznámení a podmínky používání"
+    },
+    "Montez au meilleur endroit dans le train pour être proche de la sortie.": {
+        "en": "Board at the best spot in the train to be close to the exit.",
+        "cs": "Nastupte v nejlepším místě vlaku, abyste byli blízko výstupu."
+    },
+    "Montez dans un train ou un bus : Wagon détecte automatiquement votre trajet et affiche les informations utiles.": {
+        "en": "Board a train or bus: Wagon automatically detects your journey and shows the useful information.",
+        "cs": "Nastupte do vlaku nebo autobusu: Wagon automaticky rozpozná vaši cestu a zobrazí užitečné informace."
+    },
+    "Montreal": {
+        "en": "Montreal",
+        "cs": "Montreal"
+    },
+    "Nice": {
+        "en": "Nice",
+        "cs": "Nice"
+    },
+    "Notre modèle tarifaire vous permet de payer des pubs à la journée, indépedemment du nombre de personnes qui verront votre annonce.": {
+        "en": "Our pricing model lets you pay for ads by the day, regardless of how many people see your ad.",
+        "cs": "Náš cenový model vám umožňuje platit za reklamy po dnech, nezávisle na počtu lidí, kteří vaši reklamu uvidí."
+    },
+    "Nous voulons rendre Wagon accessible partout pour simplifier l’usage des transports en commun au quotidien.": {
+        "en": "We want to make Wagon available everywhere to simplify everyday use of public transport.",
+        "cs": "Chceme, aby byl Wagon dostupný všude, a zjednodušili tak každodenní používání veřejné dopravy."
+    },
+    "Numéros de quais et longeur des trains.": {
+        "en": "Platform numbers and train lengths.",
+        "cs": "Čísla nástupišť a délky vlaků."
+    },
+    "Obtenir": {
+        "en": "Get",
+        "cs": "Získat"
+    },
+    "Ouvrez Wagon et retrouvez immédiatement les prochains départs autour de vous, vos lignes favorites et les informations qui comptent.": {
+        "en": "Open Wagon and instantly find the next departures around you, your favourite lines and the information that matters.",
+        "cs": "Otevřete Wagon a okamžitě najděte nejbližší odjezdy ve vašem okolí, vaše oblíbené linky a informace, na kterých záleží."
+    },
+    "Page principale": {
+        "en": "Home page",
+        "cs": "Hlavní stránka"
+    },
+    "Paris": {
+        "en": "Paris",
+        "cs": "Paříž"
+    },
+    "PID (Prague), PMDP (Pilsen)": {
+        "en": "PID (Prague), PMDP (Pilsen)",
+        "cs": "PID (Praha), PMDP (Plzeň)"
+    },
+    "Politique de confidentialité": {
+        "en": "Privacy policy",
+        "cs": "Zásady ochrany osobních údajů"
+    },
+    "Position approximative du signalement": {
+        "en": "Approximate location of the report",
+        "cs": "Přibližná poloha hlášení"
+    },
+    "Pour assurer des signalements authentiques, nous collectons les informations suivantes pendant une durée maximale d’un an :": {
+        "en": "To ensure authentic reports, we collect the following information for a maximum period of one year:",
+        "cs": "Aby hlášení byla autentická, sbíráme následující informace po maximální dobu jednoho roku:"
+    },
+    "Prenez les transports simplement avec Wagon.": {
+        "en": "Take public transport simply with Wagon.",
+        "cs": "Používejte veřejnou dopravu jednoduše s Wagonem."
+    },
+    "Profitez du fait que nos utilisateurs soient dehors pour les faire venir chez vous.": {
+        "en": "Take advantage of our users being out and about to bring them to you.",
+        "cs": "Využijte toho, že jsou naši uživatelé venku, a přimějte je, aby přišli k vám."
+    },
+    "Rémy Cellarier": {
+        "en": "Rémy Cellarier",
+        "cs": "Rémy Cellarier"
+    },
+    "Repérez facilement votre transport grâce aux mêmes pictogrammes qu'en station et à un aperçu du véhicule.": {
+        "en": "Easily spot your transport thanks to the same pictograms as in stations and a preview of the vehicle.",
+        "cs": "Snadno rozezněte své vozidlo díky stejným piktogramům jako ve stanicích a díky náhledu vozidla."
+    },
+    "Responsable de publication :": {
+        "en": "Publishing manager:",
+        "cs": "Odpovědný redaktor:"
+    },
+    "Signalez tous les problèmes que vous rencontrez sur votre trajet.": {
+        "en": "Report all the problems you encounter on your journey.",
+        "cs": "Nahlaste všechny problémy, na které se během cesty setkáte."
+    },
+    "STM, REM": {
+        "en": "STM, REM",
+        "cs": "STM, REM"
+    },
+    "support@getwagon.fr": {
+        "en": "support@getwagon.fr",
+        "cs": "support@getwagon.fr"
+    },
+    "Tchéquie": {
+        "en": "Czech Republic",
+        "cs": "Česko"
+    },
+    "Télécharger sur l'App Store": {
+        "en": "Download on the App Store",
+        "cs": "Stáhnout v App Store"
+    },
+    "Toulouse": {
+        "en": "Toulouse",
+        "cs": "Toulouse"
+    },
+    "Tous les contenus présents sur l’application sont la propriété de l’éditeur sauf mention contraire. Toute reproduction est interdite sans autorisation.": {
+        "en": "All content on the application is the property of the publisher unless otherwise stated. Any reproduction is prohibited without authorization.",
+        "cs": "Veškerý obsah v aplikaci je majetkem vydavatele, není-li uvedeno jinak. Jakékoli rozmnožování je bez povolení zakázáno."
+    },
+    "Tout ce dont vous avez besoin, dès l'ouverture de l'application.": {
+        "en": "Everything you need, from the moment you open the app.",
+        "cs": "Vše, co potřebujete, hned při otevření aplikace."
+    },
+    "Trajet": {
+        "en": "Journey",
+        "cs": "Cesta"
+    },
+    "Un événement spécial ?": {
+        "en": "A special event?",
+        "cs": "Speciální událost?"
+    },
+    "Une communauté qui rend les transports plus fiables.": {
+        "en": "A community making public transport more reliable.",
+        "cs": "Komunita, která činí dopravu spolehlivější."
+    },
+    "Une position approximative (si disponible), pour les analyses et pour fournir un point de départ d'itinéraire": {
+        "en": "An approximate location (if available), for analysis and to provide a starting point for a route",
+        "cs": "Přibližná poloha (pokud je dostupná), pro účely analýzy a jako výchozí bod trasy"
+    },
+    "Utilisation depuis ChatGPT (OpenAI)": {
+        "en": "Use from ChatGPT (OpenAI)",
+        "cs": "Používání z ChatGPT (OpenAI)"
+    },
+    "Vos habitudes sont détectées automatiquement pour mettre en avant vos lignes et vos arrêts.": {
+        "en": "Your habits are detected automatically to highlight your lines and stops.",
+        "cs": "Vaše zvyklosti jsou rozpoznávány automaticky, aby vynikly vaše linky a zastávky."
+    },
+    "Vos signalements": {
+        "en": "Your reports",
+        "cs": "Vaše hlášení"
+    },
+    "Votre adresse IP est collectée à chaque requête afin d’éviter les abus sur le service. Les données sont conservées pendant quelques heures uniquement.": {
+        "en": "Your IP address is collected on every request to prevent abuse of the service. The data is kept for only a few hours.",
+        "cs": "Vaše IP adresa se sbírá při každém požadavku, aby se předešlo zneužívání služby. Údaje se uchovávají pouze po několik hodin."
+    },
+    "Votre commerce s'intégrera parfaitement au sein de l'application, tout au long du voyage des utilisateurs.": {
+        "en": "Your business will fit perfectly into the app, throughout the user's journey.",
+        "cs": "Váš podnik se do aplikace začlení perfektně, a to po celou dobu cesty uživatelů."
+    },
+    "Vous êtes mis en avant via une livrée spéciale sur nos véhicules.": {
+        "en": "You are highlighted via a special livery on our vehicles.",
+        "cs": "Budete propagováni prostřednictvím speciálního nátěru našich vozidel."
+    },
+    "Vous êtes recommandé dans nos resultats de recherche.": {
+        "en": "You are recommended in our search results.",
+        "cs": "Budete doporučeni ve výsledcích našeho vyhledávání."
+    },
+    "Wagon": {
+        "en": "Wagon",
+        "cs": "Wagon"
+    },
+    "Wagon est conçue pour utiliser le moins de données personnelles possibles. Nous envoyons le minimum de données possibles afin de fournir un service rapide et fiable.": {
+        "en": "Wagon is designed to use the fewest personal data possible. We send the minimum amount of data needed to provide a fast and reliable service.",
+        "cs": "Wagon je navržen tak, aby využíval co nejméně osobních údajů. Odesíláme minimum údajů potřebných k poskytování rychlé a spolehlivé služby."
+    },
+    "Wagon est une application permettant d’obtenir des informations sur les transports, les arrêts à proximité et les trajets en cours, ainsi que de signaler des informations utiles aux autres utilisateurs.": {
+        "en": "Wagon is an application that provides information about transport, nearby stops and journeys in progress, and lets you report useful information to other users.",
+        "cs": "Wagon je aplikace, která poskytuje informace o dopravě, okolních zastávkách a právě probíhajících cestách a umožňuje nahlásit užitečné informace ostatním uživatelům."
+    },
+    "Wagon rassemble toutes les informations disponibles et les utilise partout dans l'app, pour que vous fassiez toujours les meilleurs choix.": {
+        "en": "Wagon gathers all available information and uses it everywhere in the app, so you always make the best choices.",
+        "cs": "Wagon shromažďuje všechny dostupné informace a využívá je všude v aplikaci, abyste se vždy rozhodovali co nejlépe."
+    }
+}

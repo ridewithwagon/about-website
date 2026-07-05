@@ -1,3 +1,11 @@
+<aside style="display: none;" id="langBanner">
+    <span>Choisir une langue</span>
+    <div>
+        <a data-localization="false" href="/index.html">Français</a>
+        <a data-localization="false" href="/en/index.html">English</a>
+        <a data-localization="false" href="/cs/index.html">Čeština</a>
+    </div>
+</aside>
 <nav>
     <div>
         <a href="/" title="Page principale">
@@ -32,5 +40,20 @@
         .maxi {
             display: none;
         }
+    }
+
+    aside {
+        box-sizing: border-box;
+        padding: 12px var(--body-padding);
+        margin-bottom: 32px;
+        width: 100vw;
+        z-index: 99;
+        display: flex;
+        justify-content: space-between;
+        background-color: var(--green-5);
+    }
+
+    aside a {
+        color: var(--green-1);
     }
 </style>
