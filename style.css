@@ -200,7 +200,6 @@ ul.regions span {
 }
 
 h2 {
-    max-width: 600px;
     font-size: 32px;
     margin: 0;
 }
@@ -208,6 +207,7 @@ h2 {
 section:has(article) h2,
 section:has(article) p {
     padding-left: var(--body-padding);
+    max-width: 600px;
 }
 
 section:has(article) {
