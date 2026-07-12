@@ -116,8 +116,9 @@ nav div span {
 
 .testflightbutton img,
 .googleplaybutton img {
-    height: 6vw;
+    height: max(5vw, 4vh);
     width: auto;
+    user-select: none;
 }
 
 footer {
@@ -181,7 +182,7 @@ ul.regions span {
 
 .sendBetaEmail {
     display: flex;
-    gap: 32px;
+    gap: 18px;
 }
 
 .sendBetaEmail p {
